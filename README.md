@@ -2,6 +2,9 @@
 
 Demonstrate the use of vue-module-decorators.
 
+Use of Mutation/Action/MutationAction: @/store/modules/user.ts.
+How to call: @/views/Home.vue.
+
 ## Project setup
 ```
 yarn install
