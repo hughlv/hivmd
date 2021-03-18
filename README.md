@@ -1,5 +1,7 @@
 # hivmd
 
+Demonstrate the use of vue-module-decorators.
+
 ## Project setup
 ```
 yarn install
