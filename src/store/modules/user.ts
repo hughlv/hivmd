@@ -22,10 +22,12 @@ class UserStore extends VuexModule {
   }
 
   @Action({ commit: "updatePosts" })
-  async setPosts(n: number): Promise<number> {
+  async setPosts(n: number) {
     return n;
   }
 
+  // NOTE: Only one parameter is allowed, if more than 2 params provided, params from 2 will be ignored.
+  // If more than one param to be passed, consider to use payload: { key: <key>, value: <value> }.
   @MutationAction
   async setPosts2(posts: number) {
     const temp: number = posts;
